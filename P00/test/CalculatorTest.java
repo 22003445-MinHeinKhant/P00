@@ -76,4 +76,16 @@ public class CalculatorTest {
 		assertEquals (expected, actual);
 	}
 	
+	@Test
+	public final void testExponential() {
+		//fail("Not yet implemented"); // TODO
+		int a = 2;
+		int b = 4;
+		
+		Calculator cal = new Calculator();
+		int actual = cal.exp(a, b);
+		
+		int expected = 16;
+		assertEquals (expected, actual);
+	}
 }
